@@ -12,7 +12,7 @@
     <div class="container">
         <h1>Password Generation</h1>
         <div class="passtext">
-            <input type="text">
+            <input type="text" value="xrctfbuh" disabled>
             <span class="material-symbols-outlined">
                 content_copy
                 </span>
@@ -25,26 +25,30 @@
             </div>
         <input type="range" min="1" max="30" >
     </div>
-    <div class="passsetting">
+    <div class="password-setting">Password Setting</div>
+    <div class="pass-setting">
        <ul class="options">
-        <li class="option">
-        <input type="checkbox">
+        <li class="option" >
+        <input type="checkbox" id="Lovercase" checked disabled>
         <label for="">Lovercase (a-z)</label>
        </li>
         <li class="option">
-        <input type="checkbox">
+        <input type="checkbox" id="Uppercase">
         <label for="">Uppercase (A-Z)</label>
        </li>
         <li class="option">
-        <input type="checkbox">
+        <input type="checkbox" id="number">
         <label for="">Number (1-9)</label>
        </li>
         <li class="option">
-        <input type="checkbox">
+        <input type="checkbox" id="Symbol">
         <label for="">Symbol</label>
        </li>
        </ul>
     </div>
+    <div class="button-password">
+    <button class="button">Password Generation</button></div>
     </div>
+    <script src="../javascript/app.js"></script>
 </body>
 </html>

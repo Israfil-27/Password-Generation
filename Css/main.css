@@ -19,19 +19,26 @@ body{
 .container h1{
     border-bottom: 1px solid;
     margin: 1rem 0;
+    text-align: center;
+    
 }
-.container.passtext{position: relative;}
+.container .passtext{position: relative;}
 .container .passtext input{
     width: 100%;
     border: none;
     background: #f4f4f4;
     padding: .5rem;
-    border-radius: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 600;
 
 }
 .container .passtext span{
     position: absolute;
-    right: 160px;
+    right: 6px;
+    bottom: 4px;
+    cursor: pointer;
 }
 .container .passindigator{
     width: 100%;
@@ -40,4 +47,54 @@ body{
     margin: 1rem 0;
     border-radius: 10%;
     
+}
+.passwordlength .passlength{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+.passwordlength input{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+.password-setting{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem
+}
+.pass-setting ul{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pass-setting ul li {list-style: none;
+    display: flex;
+width:calc(100% / 2);
+padding: 1rem 0;}
+.pass-setting ul input{
+    width: 1rem;
+    margin: 0 0.5rem;
+}
+.button-password{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.button{
+    text-align: center;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: rgb(89, 89, 152);
+    cursor: pointer;
 }
