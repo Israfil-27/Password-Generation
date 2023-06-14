@@ -59,12 +59,12 @@ body {
   height: 5px;
   background: yellow;
 }
-/* .container #green::before {
+.container #green::before {
   width: 100%;
   content: "";
   height: 5px;
   background: green;
-} */
+}
 
 .passwordlength .passlength {
   font-size: 1.2rem;
