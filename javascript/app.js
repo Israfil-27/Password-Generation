@@ -31,15 +31,13 @@ const PasswordGenerate = () => {
 };
 const passindigatorlength = () => {
   if (passwordLength.value < 8) {
-    // lengthslider.id = "red";
-    lengthslider.style.background = "red";
-    lengthslider.style.width = "33%";
+    lengthslider.id = "red";
   } else if (passwordLength.value < 16) {
-    // lengthslider.id = "yellow";
-    lengthslider.style.background = "yellow";
+    lengthslider.id = "yellow";
+    
   } else {
-    // lengthslider.id = "green";
-    lengthslider.style.background = "green";
+    lengthslider.id = "green";
+  
   }
 };
 

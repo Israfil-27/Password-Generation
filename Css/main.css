@@ -42,26 +42,30 @@ body {
 }
 .container .passindigator {
   width: 100%;
-  background: yellow;
   height: 3px;
   margin: 1rem 0;
   border-radius: 10%;
+  position: relative;
+  background: none;
+}
+.passindigator::before{
+  position: absolute;
+  content: "";
+  transition: width 1.9s ease;
+  border-radius: 10px;
 }
 .container #red::before {
-  content: "";
   height: 5px;
   width: 27%;
   background: red;
 }
 .container #yellow::before {
   width: 67%;
-  content: "";
   height: 5px;
   background: yellow;
 }
 .container #green::before {
   width: 100%;
-  content: "";
   height: 5px;
   background: green;
 }
